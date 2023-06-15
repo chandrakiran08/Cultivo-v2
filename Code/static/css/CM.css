@@ -1,0 +1,52 @@
+body{
+    background: url(img/CM3.jpg) no-repeat;
+    background-size: cover;
+    padding: 40px;
+    /* color: rgb(255, 255, 255); */
+}
+.collapsible {
+    background-color: rgb(66, 64, 64);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    /* width: 700px; */
+    border: none;
+    text-align: left;
+    outline: none;
+    /* opacity: 0.8; */
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(40, 172, 49);
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    font-size: large;
+    opacity: 0.6;
+    /* width: 664px; */
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+  /* .container{
+    width: 1000px;
+    height: 400px;
+    margin-left: 110px;
+  } */
+ 
